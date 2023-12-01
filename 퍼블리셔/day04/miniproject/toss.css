@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+}
+header{
+    width: 100vw;
+    height: 80px;
+
+    position: fixed;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+nav{
+    width: 60%;
+    height: 100%;
+
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo-box{
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.logo-box>img{
+    width: 65px;
+    height: 25px;
+}
+.link-box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.link-button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-button{
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 15px;
+
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+}
+.link-button:hover{
+    background-color: #0000000d;
+}
+.first{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("hero.jpg");
+    background-size: cover;
+}
+.hero{
+    width: 40%;
+
+    margin: 0 auto;
+    padding-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.hero-title{
+    font-size: 70px;
+    font-family: 'Pretendard-SemiBold';
+    text-align: center;
+    line-height: 1.4;
+}
+.download-buttons-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-button{
+    width: fit-content;
+    height: 45px;
+    background-color: #000c1ecc;
+
+    margin: 0 5px;
+    padding: 11px 16px 11px 14px;
+
+    border: none;
+    border-radius: 7px;
+   
+    font-family: 'Pretendard-SemiBold';
+    font-size: 17px;
+    color: white;
+}
+.download-button:hover{
+    opacity:0.8;
+}
