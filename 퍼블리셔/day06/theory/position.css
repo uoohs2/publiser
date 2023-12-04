@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  height: 800px;
+  border: 1px solid pink;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+
+.relative {
+  position: relative;
+  /* top, left, bottom, right */
+  /* top: 50%; */
+  /* left: 30%; */
+  top: 100px;
+  left: 0;
+}
+.absolute {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

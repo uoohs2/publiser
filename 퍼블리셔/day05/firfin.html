@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>레몬트리 | 퍼핀</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../../reset.css">
-    <link rel="stylesheet" href="firfin.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="firfin.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo-box">
-                <img src="logo.jpg" alt="logo">
-            </div>
-            <ul class="link-box">
-                <li class="link-button">블로그</li>
-                <li class="link-button">회사소개</li>
-                <li class="link-button">고객센터</li>
+      <nav>
+        <div class="logo-box">
+          <img src="logo.jpg" alt="logo" />
+        </div>
+        <ul class="link-box">
+          <li class="link-button">
+            블로그
+            <ul class="drop-box">
+              <li class="drop-button">이벤트</li>
+              <li class="drop-button">포스트</li>
+              <li class="drop-button">공지사항</li>
             </ul>
-        </nav>
+          </li>
+          <li class="link-button">회사소개</li>
+          <li class="link-button">고객센터</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="first">
-            <div class="half-box">
-                <h2 class="maintitle">용돈은<br>
-                    퍼핀으로 주세요</h2>
-                <h3 class="subtitle">엄마가 만들어주는 초등용돈카드</h3>
-                <div class="download-buttons-box">
-                    <button class="download-button "><i class="fa-brands fa-apple"></i> App Store</button>
-                    <button class="download-button "><i class="fa-brands fa-google-play"></i> Google Play</button>
-                </div>
-            </div>
-            <div class="half-box reverse">
-                <img class="card" src="card.gif" alt="card">
-                <img class="phone" src="main.png" alt="phone">
-            </div>
-        </section>
+      <section class="first">
+        <div class="half-box">
+          <h2 class="maintitle">
+            용돈은<br />
+            퍼핀으로 주세요
+          </h2>
+          <h3 class="subtitle">엄마가 만들어주는 초등용돈카드</h3>
+          <div class="download-buttons-box">
+            <button class="download-button">
+              <i class="fa-brands fa-apple"></i> App Store
+            </button>
+            <button class="download-button">
+              <i class="fa-brands fa-google-play"></i> Google Play
+            </button>
+          </div>
+        </div>
+        <div class="half-box reverse">
+          <img class="card" src="card.gif" alt="card" />
+          <img class="phone" src="main.png" alt="phone" />
+        </div>
+      </section>
+      <section class="second">
+        <div class="review-card-slider">
+          <button class="slider-button">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <ul class="review-card">
+            <li>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </li>
+            <li class="review-text">
+              "초4 아이 현금 주기 번거로웠는데,<br />
+              용돈전용카드라서 바로 신청했어요"
+            </li>
+            <li class="review-source">
+              <i class="fa-brands fa-google-play"></i> Google Play
+            </li>
+          </ul>
+          <ul class="review-card">
+            <li>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </li>
+            <li class="review-text">
+              "내 아이의 용돈관리가<br />
+              쉬워졌어요!"
+            </li>
+            <li class="review-source">
+              <i class="fa-brands fa-square-instagram"></i> Instagram
+            </li>
+          </ul>
+          <ul class="review-card">
+            <li>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </li>
+            <li class="review-text">
+              "초4 아이 현금 주기 번거로웠는데,<br />
+              용돈전용카드라서 바로 신청했어요"
+            </li>
+            <li class="review-source">
+              <i class="fa-brands fa-google-play"></i> Google Play
+            </li>
+          </ul>
+          <button class="slider-button">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
