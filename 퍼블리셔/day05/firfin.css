@@ -1,24 +1,32 @@
-@font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-    format('woff');
-}
-@font-face {
-  font-family: 'Pretendard-SemiBold';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff')
-    format('woff');
-}
-body {
-  background-color: #bea9ed;
-  color: #232323;
+:root {
+  --primary-purple-300: #8f69dd;
+  --primary-purple-200: #bea9ed;
+  --primary-purple-100: #d8cbf4;
+  --primary-purple-50: #f0eafa;
+  --font-font-black: #111;
+  --font-font-white: #fff;
+  --font-font-100: #999;
+  --font-font-200: #666;
+  --secondary-orange-100: #fbae8a;
+  --secondary-orange-200: #f98e5a;
+  --secondary-orange-300: #f77833;
+  --secondary-black-200: #232323;
+  --neutrals-black: #000;
+  --neutrals-white: #fff;
+  --neutrals-gray-10: #f7f6fa;
+  --neutrals-gray-50: #f3f1f1;
+  --neutrals-gray-100: #e7e5e5;
+  --neutrals-gray-200: #a6a4a4;
 }
 header {
   width: 100vw;
   height: 80px;
 
   position: fixed;
+  z-index: 1;
 
   background-color: transparent;
+  color: var(--secondary-black-200);
 }
 nav {
   width: 65%;
@@ -57,11 +65,9 @@ nav {
   color: white;
 }
 .drop-box {
-  /* display: none; */
+  display: none;
   position: absolute;
   left: -246px;
-  z-index: 1;
-
   padding: 32px 20px;
   margin: 40px 0 0 0;
   border-radius: 4px;
@@ -72,12 +78,17 @@ nav {
   line-height: 28px;
   color: #232323;
 }
+.link-button:hover .drop-box {
+  display: block;
+}
 .drop-button {
   width: 360px;
   padding: 14px 20px;
 }
 main {
   width: 100vw;
+  background-color: var(--primary-purple-200);
+  color: #232323;
 }
 .first {
   width: 65%;
@@ -94,11 +105,11 @@ main {
   width: 50%;
   font-family: 'Pretendard-SemiBold';
 }
-.maintitle {
+.main-title {
   font-size: 66px;
   line-height: 1.4;
 }
-.subtitle {
+.sub-title {
   font-size: 30px;
   margin: 50px 0;
 }
@@ -138,7 +149,6 @@ main {
   background-color: #f1eee1;
   padding: 120px 0;
 }
-
 .review-card-slider {
   display: flex;
   justify-content: space-between;
@@ -165,7 +175,6 @@ main {
   text-align: center;
   font-family: 'Pretendard-SemiBold';
 }
-
 .review-text {
   margin: 20px 0;
   line-height: 30px;
