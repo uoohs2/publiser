@@ -6,9 +6,9 @@ main{
     height: 100vh;
 }
 .loginBox{
-    width: 30%;
+    width: 80%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ main{
 .strikethrough::before,.strikethrough::after{
     content:'';
     display: inline-block;
-    width: 45%; /* 선의 길이 */
+    width: 40%; /* 선의 길이 */
     height: 1px; /* 선의 길이 */
     background-color: gainsboro; /* 선의 길이 */
     vertical-align: middle; /* 선의 길이 */
