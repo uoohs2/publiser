@@ -1,99 +1,114 @@
-header{
-    position: fixed;
-    width: 100vw;
-    height: 50px;
-    background-color: white;
-    z-index: 1;
+header {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  z-index: 1;
 }
-.searchBox{
-    width: 800px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
-    border-bottom: 1px solid #DADDE5;
+.searchBox {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #dadde5;
 }
-main{
-    width: 800px;
-    margin: 0px auto;
-    padding: 50px 20px 20px 20px;
-    background-color: white;
-    color: #585D68;
-    font-family: 'Pretendard-Regular';    
+.searchBox > button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
-.filterBox{
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
+main {
+  width: 800px;
+  margin: 0px auto;
+  padding: 50px 20px 20px 20px;
+  background-color: white;
+  color: #585d68;
+  font-family: 'Pretendard-Regular';
 }
-.filterBtn{
-    padding: 10px 15px;
-    margin-right: 8px;
+.filterBox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.filterBtn {
+  padding: 10px 15px;
+  margin-right: 8px;
 
-    background-color: white;
-    border: 1px solid #DADDE5;
-    border-radius: 18px;
+  background-color: white;
+  border: 1px solid #dadde5;
+  border-radius: 18px;
 
-    font-size: 14px;
+  font-size: 14px;
 }
-.filterBtn:first-child{
-    font-weight: bold;
+.filterBtn:first-child {
+  font-weight: bold;
 }
-.filterBtn:hover{
-    border: 1px solid #DADDE5;
-    background-color: #ebedf2;
-    cursor: pointer;
+.filterBtn:hover {
+  border: 1px solid #dadde5;
+  background-color: #ebedf2;
+  cursor: pointer;
 }
-.cardBox{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.cardBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.card{
-    width: 300px;
-    height: 130px;
-    margin-top: 10px;
-    display: flex;
+.card {
+  width: 300px;
+  height: 130px;
+  margin-top: 10px;
+  display: flex;
 }
-.card>img{
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 10px;
+.card > img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
 }
-.cardInfo{
-    position: relative;
-    width: 150px;
-    height: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.cardInfo {
+  position: relative;
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.name{
-    font-size: 15px;
-    font-weight: bold;
+.name {
+  font-size: 15px;
+  font-weight: bold;
 }
-.place{
-    font-size: 14px;
+.place {
+  font-size: 14px;
 }
-.type{
-    position: absolute;
-    left: 10px;
-    bottom: 20px;
-    width: 35px;
-    height: 20px;
-    padding: 0px 4px;
-    background: rgb(251, 251, 251);
-    border: none;
-    border-radius: 10px;
-    box-shadow: rgb(218, 221, 229) 0px 0px 0px 1px inset;
-    font-family: 'Pretendard-Regular'; 
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: #585D68;
-    cursor: pointer;
+.type {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  width: 35px;
+  height: 20px;
+  padding: 0px 4px;
+  background: rgb(251, 251, 251);
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgb(218, 221, 229) 0px 0px 0px 1px inset;
+  font-family: 'Pretendard-Regular';
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #585d68;
+  cursor: pointer;
 }
+/* footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 70px;
+  background-color: white;
+  border-top: 1px solid rgb(238, 238, 238);
+} */
